@@ -1,0 +1,12 @@
+.encima::after {
+    content:'Pasa por encima';
+}
+
+.encima:hover {
+    color: white;
+    background-color: green;
+}
+
+.encima:hover::after {
+    content: 'Hecho!';
+}
