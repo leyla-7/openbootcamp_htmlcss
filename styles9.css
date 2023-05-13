@@ -1,0 +1,30 @@
+body {
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-modern {
+    border:none;
+    padding:15px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.btn-modern:hover {
+    animation:forwards butt0n 0.4s;
+    cursor: pointer;
+}
+
+@keyframes butt0n {
+    0% {
+
+    }
+    100% {transform: translateY(-5px);
+    box-shadow: 10px 5px 5px gray;
+    background-color: green;
+    color:white;
+    }
+}
